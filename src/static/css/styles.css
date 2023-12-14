@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(src/static/imgs/img8.jpg); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-image: url(src/static/imgs/img8.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    height: 100vh; 
     margin: 0;
 }
 
