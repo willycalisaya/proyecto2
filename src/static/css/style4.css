@@ -28,7 +28,7 @@ body{
 }
 
 #boton1 {
-    background-image: url(img5.jpg); 
+    background-image: url(src/static/imgs/img5.jpg); 
     background-size: cover;
 }
   
@@ -38,7 +38,7 @@ body{
 }
   
 #boton3 {
-    background-image: url(img7.jpg); 
+    background-image: url(src/static/imgs/img7.jpg); 
     background-size: cover;
 }
 

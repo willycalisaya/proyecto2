@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="src/static/css/style2.css">
 </head>
 <body>
     <div class="formulario">
@@ -31,7 +31,7 @@
         </form>
     </div>
     <?php
-        include("registrar.php");
+        include("src/registrar.php");
     ?>
 </body>
 </html>

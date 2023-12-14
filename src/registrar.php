@@ -1,6 +1,6 @@
 <?php
 
-include("conexion.php");
+include("src/conexion.php");
 
 if (isset($_POST['register'])){
     if(

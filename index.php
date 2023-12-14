@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicio1</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="src/static/css/style2.css">
 </head>
 <body>
     <div class="formulario">
@@ -20,13 +20,13 @@
             </div>
                 <input type="submit" value="ingresar">
             <div class="registrarse">
-                ¿No tienes una cuenta?<a href="registro.php">Registrarse</a>
+                ¿No tienes una cuenta?<a href="src/registro.php">Registrarse</a>
             </div>
         </form>
 
     </div>
     <?php
-        include("registrar.php");
+        include("src/registrar.php");
     ?>
 </body>
 </html>

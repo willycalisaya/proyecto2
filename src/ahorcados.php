@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahorcado</title>
     <link href="http://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" >
-    <script type="text/javascript" src="palabras.php" defer></script>
-    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="src/static/css/styles.css" >
+    <script type="text/javascript" src="src/palabras.php" defer></script>
+    <script type="text/javascript" src="src/static/js/script.js" defer></script>
 </head>
 <body>
     <h1>PALABRAS REGULARES-IRREGULARES</h1>

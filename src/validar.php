@@ -1,5 +1,5 @@
 <?php
-include("conexion.php");
+include("src/conexion.php");
 
 $name1 = $_POST['name'];
 $password1 = $_POST['password'];
@@ -10,7 +10,7 @@ $resultado1 = mysqli_query($conex, $consulta1);
 $filas = mysqli_num_rows($resultado1);
 
 if ($filas) {
-    header("location:inicio.php");
+    header("location:src/inicio.php");
 } else {
     include("index.php");
     ?>

@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(img8.jpg); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-image: url(src/static/imgs/img8.jpg); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen de fondo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
