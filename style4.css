@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: montserrat;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img3.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boton {
+    padding: 70px 80px; 
+    margin: 20px; 
+    font-size: 24px; 
+    border: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#boton1 {
+    background-image: url(img5.jpg); 
+    background-size: cover;
+}
+  
+#boton4 {
+    background-color: rgb(81, 97, 236) ; 
+    background-size: cover;
+}
+  
+#boton3 {
+    background-image: url(img7.jpg); 
+    background-size: cover;
+}
+
+
+.boton:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width:991px){
+    body{
+        padding: 30px;
+    }
+    form{
+        width: 340px;
+    }
+}

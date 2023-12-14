@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  background: green;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.hangman-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.letters {
+  display: inline-block;
+}
+
+.letters button {
+  font-size: 18px;
+  margin: 5px;
+  background: goldenrod;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#boton1 {
+    position: fixed;
+    top: 20px; 
+    left: 20px; 
+    padding: 20px 30px; 
+    font-size: 20px; 
+    border-radius: 10px; 
+    background-color: #3498db; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+  }

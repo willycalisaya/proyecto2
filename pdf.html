@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('ingles 2.jpg');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .btn {
+            font-size: 20px;
+            padding: 20px 40px;
+            margin: 10px;
+        }
+        #pdfContainer {
+            display: none;
+            margin-top: 20px;
+        }
+        #pdfFrame {
+            width: 150%;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: aliceblue;"> Verbos en ingles </h1>
+    <div class="btn-container">
+        <button class="btn" onclick="abrirPDF('pasado simple.pdf')">Verbos ingles </button>
+        <button class="btn" onclick="abrirPDF('presente simple.pdf')">Presente simple teoria y ejercicios </button>
+        <button class="btn" onclick="abrirPDF('Tema5Ingles.pdf')">Futuro</button>
+    </div>
+
+    <div id="pdfContainer">
+        <button onclick="cerrarPDF()">Cerrar PDF</button>
+        <iframe id="pdfFrame"></iframe>
+    </div>
+
+    <script>
+        function abrirPDF(pdf) {
+            document.getElementById('pdfFrame').src = pdf;
+            document.getElementById('pdfContainer').style.display = 'block';
+        }
+
+        function cerrarPDF() {
+            document.getElementById('pdfFrame').src = '';
+            document.getElementById('pdfContainer').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
